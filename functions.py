@@ -12,12 +12,14 @@ else:
     print("'{}' is not palindrome".format(word))
 
 
+
+
 # answer = multipy(10,45)
 # print(answer)
 
 
 # a_b = multipy(4,8)
-# print(a_b)
+# print(a_b)R
 
 # for pav in range(1,6):
 #     van = multipy(6,pav)
