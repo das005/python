@@ -1,7 +1,9 @@
-def multipy(x, y):
-    x_y = x * y
-    return x_y
+# def multipy(x, y):
+#     x_y = x * y
+#     return x_y
 
+
+# Example with another function
 
 def is_palindrome(string):
     return string[::-1].casefold() == string.casefold()
@@ -9,9 +11,12 @@ def is_palindrome(string):
 
 word = input("Please enter the world to check: ")
 if is_palindrome(word):
-    print("'{}' is plaindrome".format(word))
+    print("'{}' is palindrome".format(word))
 else:
     print("'{}' is not palindrome".format(word))
+
+# end
+
 
 # answer = multipy(10,45)
 # print(answer)
